@@ -24,19 +24,19 @@
   <section class="container-fluid my-2 bg-light">
       <div class="row">
         <div class="col-12 col-md-4 col-xl-3">
-        <h3>Search for a City:</h3>
+        <h3 class="Major-Title">Search for a City:</h3>
         <form>
             <input type="search" id="city-search" name="city-search">
             </form>
         <p>
-            <button class="City Search" id="find-city">
+            <button class="City Search btn" id="find-city">
                 Search
             </button>
         </p>
       </div>
       <div class="col-12 col-md-8 col-xl-9 card card-rounded">
        <!-- <h3>Search Results</h3> -->
-        <p  id="TextResults">
+        <p  id="Major-Cities">
         </p>
       </div>
     </div>
@@ -45,45 +45,73 @@
   <section class="container-fluid my-2 bg-light">
     <div class="row">
     <aside class="col-12 col-md-6 col-lg-3">
+        <div class="Major-Title">Major Cities</div>
+        <br>
         <table class="card-body table">
-            <th>
-              <p class="my-2">Major Cities</p>
-            </th>
-            <tbody id="Major-Cities" class="mx-auto text-center"></tbody>
+            <tbody class="mx-auto">
+                <div><button class="MC btn" id="ATLPopulous">
+                    Atlanta
+                </button></div>
+                <div><button class="MC  btn" id="AUSPopulous">
+                    Austin
+                </button></div>
+                <div><button class="MC  btn" id="CHIPopulous">
+                   Chicago
+                </button></div>
+                <div><button class="MC  btn" id="COLPopulous">
+                    Columbus
+                </button></div>
+                <div><button class="MC  btn" id="DENPopulous">
+                    Denver
+                </button></div>
+                <div><button class="MC  btn" id="NYPopulous">
+                    New York
+                </button></div>
+                <div><button class="MC  btn" id="ORLPopulous">
+                    Orlando
+                </button></div>
+                <div><button class="MC  btn" id="SFPopulous">
+                    San Francisco
+                </button></div>
+                <div><button class="MC  btn" id="SEAPopulous">
+                    Seattle
+                </button></div>
+            </tbody>
           </table>
         </aside>
-    <aside class="col-12 col-md-6 col-lg-9">
+    <aside class="col-12 col-md-6 col-lg-9">  
+        <div class="Major-Title">5-Day Forecast:</div>
         <div class=row>
-    <div class="col-12 col-md-6 col-lg-2">
-            <h3>Title</h3>
-            <h5>Test</h5>
+    <div class="col-12 col-md-6 col-lg-2 card2 card-rounded">
+            <h3 class="card-header text-center">Title</h3>
+            <h5 class="card-body">Test</h5>
             <p>Day1</p>
         </div>
-    <div class="col-12 col-md-6 col-lg-2">
-        <h3>Title</h3>
-        <h5>Test</h5>
+    <div class="col-12 col-md-6 col-lg-2 card2 card-rounded">
+        <h3 class="card-header text-center">Title</h3>
+        <h5 class="card-body">Test</h5>
         <p>Day2</p>
       </div>
-    <div class="col-12 col-md-6 col-lg-2">
-        <h3>Title</h3>
-        <h5>Test</h5>
+    <div class="col-12 col-md-6 col-lg-2 card2 card-rounded">
+        <h3 class="card-header text-center">Title</h3>
+        <h5 class="card-body">Test</h5>
         <p>Day3</p>
       </div>
-    <div class="col-12 col-md-6 col-lg-2">
-        <h3>Title</h3>
-        <h5>Test</h5>
+    <div class="col-12 col-md-6 col-lg-2 card2 card-rounded">
+        <h3 class="card-header text-center">Title</h3>
+        <h5 class="card-body">Test</h5>
         <p>Day4</p>
       </div>
-    <div class="col-12 col-md-6 col-lg-2">
-        <h3>Title</h3>
-        <h5>Test</h5>
+    <div class="col-12 col-md-6 col-lg-2 card2 card-rounded">
+        <h3 class="card-header text-center">Title</h3>
+        <h5 class="card-body">Test</h5>
         <p>Day5</p>
       </div>
     </div>
     </aside>
     </div>
   </section>
-
+<script src="./script.js"></script>
  </body>
 
 </html>

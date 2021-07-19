@@ -6,6 +6,16 @@ html {
   body {
     margin: 0;
   }
+
+  .Major-Title {
+      text-align: center;
+      font-size: xx-large;
+      font-weight: bolder;
+  }
+
+  #city-search {
+      width: 45vh;
+  }
   
   main {
     display: block;
@@ -30,12 +40,7 @@ html {
   a {
     background-color: transparent;
   }
-  
-  abbr[title] {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted;
-    }
+
   b,
   strong {
     font-weight: bolder;
@@ -799,15 +804,16 @@ html {
   .btn {
     text-align: center;
     display: inline-block;
+    width: 45vh;
     padding: 0.5rem 1.2rem;
-    margin: 0;
+    margin: 5px;
     text-decoration: none;
     font-size: 1rem;
     border-radius: 0.3rem;
     border: 1px solid transparent;
     outline: none;
     color: #1a1a1a;
-    background-color: #aeaeae;
+    background-color: #5d92d6d8;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
   
@@ -911,6 +917,11 @@ html {
     border: 1px solid #1a1a1a;
     margin-bottom: 1rem;
   }
+  .card2 {
+    border: 1px solid #1a1a1a;
+    margin-left: 1.7rem;
+    margin-top: 2rem;
+  }
   
   .card .card-header {
     padding: 0.375rem;
@@ -927,7 +938,9 @@ html {
     padding: 0.375rem;
   }
   
-  .card.card-rounded {
+  .card.card-rounded,
+  .card2
+   {
     border-radius: 0.3rem;
   }
   
@@ -1052,8 +1065,8 @@ html {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 25px;
   }
   
   .col-auto {
@@ -1210,6 +1223,7 @@ html {
     padding: 0.75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
+    align-content: center;
   }
   
   .table thead th {
